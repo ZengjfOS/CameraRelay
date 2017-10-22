@@ -35,9 +35,9 @@ Example: ./CameraRelay.py -on 4 -off 2 -cap 1
 ./CameraRelay.py -on 4 -off 2 -cap 1 
 ```
 
-* Power On 4(s)
-* Power Off 2(s)
-* Capture a image after Power On 4(s)
+* `System Power On`: 4(s)
+* `System Power Off`: 2(s)
+* `UsB Camera capture a image after Power On`: 1(s)
 
 ### CMD Output Example
 
