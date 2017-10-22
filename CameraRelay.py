@@ -17,7 +17,7 @@ OPENCV_VIDEO_SRC = 0
 IMAGE_DIR = "image"
 
 # SYSTEM_DEBUG = True
-SYSTEM_DEBUG = False
+SYSTEM_DEBUG = True
 
 class CameraRelay:
 	powerOnTime = 0

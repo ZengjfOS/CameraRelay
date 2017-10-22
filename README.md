@@ -48,19 +48,21 @@ Namespace(cap='1', off='2', on='4')
  powerOffTime: 2.0.
  cameraCaptureDelay: 1.0.
 
-start power off: 20171022065732
-over power off and start power on: 20171022065734
-capture a image: 20171022065735
-over power on: 20171022065738
+Program Is Running...
+Type Ctrl+c to stop the program.
+start power off: 20171022072547
+over power off and start power on: 20171022072549
+capture a image: 20171022072550
+over power on: 20171022072553
 Capture image count: 1
-start power off: 20171022065738
-over power off and start power on: 20171022065740
-capture a image: 20171022065741
-over power on: 20171022065744
+start power off: 20171022072553
+over power off and start power on: 20171022072555
+capture a image: 20171022072556
+over power on: 20171022072559
 Capture image count: 2
-start power off: 20171022065744
-over power off and start power on: 20171022065746
-capture a image: 20171022065747
-over power on: 20171022065750
+start power off: 20171022072559
+over power off and start power on: 20171022072602
+capture a image: 20171022072603
+over power on: 20171022072606
 Capture image count: 3
 ```
