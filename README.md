@@ -2,11 +2,11 @@
 
 在树莓派上安装USB Camera，通过GPIO口控制设备电源，在电源上点一定时间后，对设备进行拍照。
 
-目前没有整合图片相似度对比，不过[test/imgcompare.py](test/imgcompare.py)中有`Ubuntu`版本的处理图片相似度源代码，可以用于参考：
+**Ctrl+c**停止程序运行。
+
+目前没有整合图片相似度对比，不过[test/imgcompare.py](test/imgcompare.py)中有`Ubuntu`版本的处理图片相似度源代码，可以用于参考整合功能：
 
 ![Ubuntu_JPG_Compare.png](Ubuntu_JPG_Compare.png)
-
-**Ctrl+c**停止程序运行。
 
 ## 参考文档：
 * [Getting Webcam Images with Python and OpenCV 2 (For Real This Time)](https://codeplasma.com/2012/12/03/getting-webcam-images-with-python-and-opencv-2-for-real-this-time/)
@@ -14,6 +14,10 @@
 * [Python的命令行参数解析](http://noahsnail.com/2017/09/13/2017-9-13-Python%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0%E8%A7%A3%E6%9E%90/)
 * [RPi 2B GPIO 测试](http://www.cnblogs.com/zengjfgit/p/5215194.html)
 * [RPi 2B python opencv camera demo example](http://www.cnblogs.com/zengjfgit/p/5223747.html)
+* [python使用matplotlib:subplot绘制多个子图](http://blog.csdn.net/gatieme/article/details/61416645)
+* [直方图计算](http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/imgproc/histograms/histogram_calculation/histogram_calculation.html)
+* [Python+OpenCV学习（5）---直方图](http://lib.csdn.net/article/opencv/35685)
+* [How-To: 3 Ways to Compare Histograms using OpenCV and Python](https://www.pyimagesearch.com/2014/07/14/3-ways-compare-histograms-using-opencv-python/)
 
 ## USAGE
 
