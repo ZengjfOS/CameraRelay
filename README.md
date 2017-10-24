@@ -2,6 +2,10 @@
 
 在树莓派上安装USB Camera，通过GPIO口控制设备电源，在电源上点一定时间后，对设备进行拍照。
 
+目前没有整合图片相似度对比，不过[test/imgcompare.py](test/imgcompare.py)中有`Ubuntu`版本的处理图片相似度源代码，可以用于参考：
+
+![Ubuntu_JPG_Compare.png](Ubuntu_JPG_Compare.png)
+
 **Ctrl+c**停止程序运行。
 
 ## 参考文档：
