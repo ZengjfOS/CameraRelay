@@ -77,7 +77,7 @@ Capture image count: 3
 
 * 第一行图是表示[test/tpl.jpg](test/tpl.jpg)的直方图和图片；
 * 第二行图是表示[test/src.jpg](test/src.jpg)的直方图和图片；
-* 第三行图是表示，`B`、`G`、`R`对应的三个相似度（范围：0～1）和最后一个取`B`、`G`、`R`最小的相似度。
+* 第三行图是表示，`B`、`G`、`R`对应的三个相似度和最后一个取`B`、`G`、`R`最小的相似度。
 
 ![img/Ubuntu_JPG_Compare.png](img/Ubuntu_JPG_Compare.png)
 
