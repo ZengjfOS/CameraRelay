@@ -4,7 +4,7 @@
 
 **Ctrl+c**停止程序运行。
 
-目前没有整合图片相似度对比，不过[test/imgcompare.py](test/imgcompare.py)中有`Ubuntu`版本的处理图片相似度源代码，可以用于参考整合功能：
+目前没有整合图片相似度对比，不过[test/imgcompare.py](test/imgcompare.py)中有`Ubuntu`版本的处理图片相似度源代码，可以用于参考整合功能。下图中，中间一行图最后一张，目前不知道为什么显示的时候偏蓝，不进行任何处理也会这样，目前不进行处理：
 
 ![Ubuntu_JPG_Compare.png](Ubuntu_JPG_Compare.png)
 
