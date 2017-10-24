@@ -14,6 +14,7 @@
 * [直方图计算](http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/imgproc/histograms/histogram_calculation/histogram_calculation.html)
 * [Python+OpenCV学习（5）---直方图](http://lib.csdn.net/article/opencv/35685)
 * [How-To: 3 Ways to Compare Histograms using OpenCV and Python](https://www.pyimagesearch.com/2014/07/14/3-ways-compare-histograms-using-opencv-python/)
+* [How to Display a Matplotlib RGB Image](https://www.pyimagesearch.com/2014/11/03/display-matplotlib-rgb-image/)
 
 ## 二、USAGE
 
@@ -81,7 +82,7 @@ Capture image count: 3
 
 ![img/Ubuntu_JPG_Compare.png](img/Ubuntu_JPG_Compare.png)
 
-如下是GIMP图像处理软件对[test/src.jpg](test/src.jpg)、[test/tpl.jpg](test/tpl.jpg)显示的`B`、`G`、`R`直方图，且从下列图中可以看出，直方图分析是正常的，所以目前不进行处理。
+如下是GIMP图像处理软件对[test/src.jpg](test/src.jpg)、[test/tpl.jpg](test/tpl.jpg)显示的`B`、`G`、`R`直方图：
 
 ### 3.1 [test/tpl.jpg](test/tpl.jpg)直方图
 
@@ -94,3 +95,11 @@ Capture image count: 3
 和前面的Python输出的`B`、`G`、`R`直方图拟合度是一样的。
 
 ![img/src_blue.png](img/src_blue.png)![img/src_green.png](img/src_green.png)![img/src_red.png](img/src_red.png)
+
+### 3.3 颜色偏蓝原因
+
+OpenCV represents RGB images as multi-dimensional NumPy arrays…, but in reverse order! This means that images are actually represented in BGR order rather than RGB! There’s an easy fix though. All we need to do is convert the image from BGR to RGB:
+
+```
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+```
