@@ -40,7 +40,7 @@ axes = plt.subplot(313)
 # value for compare hist
 compare_score = [None] * 3
 # x/y range
-plt.axis([0, 5, -0.5, 1])
+plt.axis([0, 5, -0.5, 1.2])
 # x point for up picture
 socre_x_position = [0.5, 1.8, 3.2, 4.5]
 # hidden x lable
