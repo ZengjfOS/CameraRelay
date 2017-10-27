@@ -21,7 +21,8 @@ for i, col in enumerate(color):
     plt.xlim([0, 256])
 
 plt.subplot(PLOT_FRAMES + j * 4 + 3)
-plt.imshow(tpl_img)
+# plt.imshow(tpl_img)
+plt.imshow(cv.cvtColor(tpl_img, cv.COLOR_BGR2RGB))
 
 src_img = cv.imread("src.jpg", 1)
 
@@ -34,7 +35,8 @@ for i, col in enumerate(color):
     plt.xlim([0, 256])
 
 plt.subplot(PLOT_FRAMES + j * 4 + 3)
-plt.imshow(src_img)
+# plt.imshow(src_img)
+plt.imshow(cv.cvtColor(src_img, cv.COLOR_BGR2RGB))
 
 axes = plt.subplot(313)
 # value for compare hist

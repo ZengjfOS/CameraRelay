@@ -103,3 +103,7 @@ OpenCV represents RGB images as multi-dimensional NumPy arrays…, but in revers
 ```
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 ```
+
+### 3.4 显示颜色正常
+
+![img/Color_OK.png](img/Color_OK.png)
