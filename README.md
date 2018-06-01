@@ -42,7 +42,7 @@ Example: ./CameraRelay.py -on 4 -off 2 -cap 1
 
 * `System Power On`: 4(s)
 * `System Power Off`: 2(s)
-* `UsB Camera capture a image after Power On`: 1(s)
+* `USB Camera capture a image after Power On`: 1(s)
 
 ### 2.3 CMD Output Example
 
